@@ -25,5 +25,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)buttonHit:(id)sender {
+    [self.myButton setTitle:@"I'm the man" forState:UIControlStateNormal];
+}
 
 @end
